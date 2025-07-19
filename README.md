@@ -35,7 +35,7 @@ The goal of this project is to apply machine learning to help detect the presenc
 * Python 3.11
 * pandas, numpy
 * scikit-learn
-* matplotlib, seaborn
+* matplotlib, seaborn (for EDA in notebook)
 * Streamlit
 * joblib
 
@@ -45,34 +45,44 @@ The goal of this project is to apply machine learning to help detect the presenc
 
 ```
 Heart-Disease-Prediction/
-├── heart.csv                      # Dataset
-├── heart_disease_prediction.ipynb  # Jupyter notebook (ML workflow)
-├── rf_model.pkl                   # Trained Random Forest model
-├── scaler.pkl                     # Fitted StandardScaler object
-├── app.py                         # Streamlit web application
-├── report.pdf                     # Project report (optional)
+├── heart_disease_prediction.ipynb    # Jupyter notebook (ML workflow)
+├── rf_model.pkl                      # Trained Random Forest model
+├── scaler.pkl                        # Fitted StandardScaler object
+├── app.py                            # Streamlit web application
+├── report.pdf                        # Project report (optional)
+├── requirements.txt                  # Required Python libraries
+└── README.md                         # This file
 ```
 
 ---
 
 ## How to Run the Project
 
-### Run the Notebook
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/heart-disease-prediction.git
+cd heart-disease-prediction
+```
+
+### 2. Install the Dependencies
+
+Make sure you have Python installed, then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Notebook
 
 ```bash
 jupyter notebook heart_disease_prediction.ipynb
 ```
 
-### Run the Web App (Optional)
+### 4. Run the Web App (Optional)
 
 ```bash
 streamlit run app.py
-```
-
-Make sure to have the following dependencies installed:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -80,4 +90,3 @@ pip install -r requirements.txt
 ## Purpose
 
 This project is built as part of my personal learning and portfolio to showcase my understanding of machine learning workflows, model deployment, and basic frontend integration using Streamlit.
-
