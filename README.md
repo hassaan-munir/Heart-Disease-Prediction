@@ -62,7 +62,7 @@ Heart-Disease-Prediction/
 
 ```bash
 git clone https://github.com/hassaan-munir/Heart-Disease-Prediction.git
-cd Heart Disease Prediction
+cd "Heart-Disease-Prediction"
 ```
 
 ### 2. Install the Dependencies
