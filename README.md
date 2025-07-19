@@ -61,8 +61,8 @@ Heart-Disease-Prediction/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/heart-disease-prediction.git
-cd heart-disease-prediction
+git clone https://github.com/hassaan-munir/Heart-Disease-Prediction.git
+cd Heart Disease Prediction
 ```
 
 ### 2. Install the Dependencies
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ### 3. Run the Notebook
 
 ```bash
-jupyter notebook heart_disease_prediction.ipynb
+jupyter notebook heart_disease_Prediction.ipynb
 ```
 
 ### 4. Run the Web App (Optional)
