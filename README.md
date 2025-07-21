@@ -90,3 +90,10 @@ streamlit run app.py
 ## Purpose
 
 This project is built as part of my personal learning and portfolio to showcase my understanding of machine learning workflows, model deployment, and basic frontend integration using Streamlit.
+
+---
+
+## Connect with Me
+
+**Muhammad Hassaan Munir** [LinkedIn Profile](https://www.linkedin.com/in/muhammad-hassaan-munir-79b5b2327/)
+
