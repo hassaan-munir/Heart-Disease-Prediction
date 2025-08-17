@@ -1,7 +1,5 @@
 # Heart Disease Prediction using Machine Learning
 
-This is a personal portfolio project that uses a machine learning model to predict the likelihood of heart disease in individuals based on key health metrics. It demonstrates the complete workflow from data processing to model deployment.
-
 ---
 
 ## Project Overview
